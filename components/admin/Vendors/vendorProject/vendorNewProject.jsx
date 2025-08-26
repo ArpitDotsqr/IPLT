@@ -446,14 +446,14 @@ const VendorNewProject = () => {
           if (!item.vehicleNumber) {
             error["vehicleNumber"] = "Required";
           }
-          if (item.vehicleNumber) {
-            // const regex = new RegExp(
-            //   "^[A-Z]{2}[ -]?[0-9]{2}[ -]?[A-Z]{1,2}[ -]?[0-9]{4}$"
-            // );
-            // if (!regex.test(item.vehicleNumber)) {
-            //   error["vehicleNumber"] = "Invalid Format";
-            // }
-          }
+          // if (item.vehicleNumber) {
+          //   const regex = new RegExp(
+          //     "^[A-Z]{2}[ -]?[0-9]{2}[ -]?[A-Z]{1,2}[ -]?[0-9]{4}$"
+          //   );
+          //   if (!regex.test(item.vehicleNumber)) {
+          //     error["vehicleNumber"] = "Invalid Format";
+          //   }
+          // }
           if (!item.vehicleTypeId) {
             error["vehicleTypeId"] = "Required";
           }

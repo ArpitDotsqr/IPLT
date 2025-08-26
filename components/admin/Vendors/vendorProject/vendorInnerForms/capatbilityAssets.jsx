@@ -4,7 +4,7 @@ import {
   getVendorDataById,
 } from "@/redux/actions/vendor/vendorActions";
 import { useRouter } from "next/router";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Accordion, Col, Image, Row, Table } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { Field, Form } from "react-final-form";
@@ -16,6 +16,8 @@ const VendorCapabilityAndAssets = (props) => {
   const router = useRouter();
   const dispatch = useDispatch();
   const { values, push, remove } = props;
+
+  console.log("values", values);
 
   const tableHead = [
     "Vehicle No",
@@ -221,6 +223,25 @@ const VendorCapabilityAndAssets = (props) => {
     }
     return age ? age : "0";
   };
+
+  console.log("values?.payload?.length", values?.payload?.length);
+
+  useEffect(() => {
+    if (values?.payload?.length === undefined) {
+      push("payload", {
+        vehicleNumber: "",
+        vehicleTypeId: "",
+        vehicleWheels: "",
+        vehicleMeasurement: "",
+        vehicleVolume: "",
+        vehicleCapacity: "",
+        vehicleTareWeight: "",
+        insuranceValidity: "",
+        driverName: "",
+        drivingLicenseNumber: "",
+      });
+    }
+  }, []);
 
   return (
     <>
