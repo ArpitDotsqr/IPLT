@@ -1,0 +1,49 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="16" height="16" fill="#F5F5F5"/>
+<g id="Home Dashboard">
+<g clip-path="url(#clip0_18_2442)">
+<rect x="-384" y="-383" width="1440" height="2464" rx="4" fill="white"/>
+<g id="Frame 1000008467">
+<g id="Frame 1000008249" filter="url(#filter0_d_18_2442)">
+<rect x="-40" y="-186" width="1032" height="578" rx="12" fill="white" shape-rendering="crispEdges"/>
+<g id="Frame 1000008230">
+<g id="Frame 1000008247">
+<g id="Frame 1000008249_2">
+<rect x="-19.5" y="-93.5" width="991" height="131" rx="11.5" stroke="#E6EBF3"/>
+<g id="Frame 427319234">
+<g id="Chart Data">
+<g id="Frame 427318666">
+<g id="&#228;&#184;&#139;&#233;&#153;&#141;">
+<g id="&#228;&#184;&#139;&#233;&#153;&#141;_2" clip-path="url(#clip1_18_2442)">
+<path id="Vector" d="M8 10.334L4 6.33398H12L8 10.334Z" fill="#F53F3F"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_18_2442" x="-60" y="-200" width="1072" height="618" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="10"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_18_2442"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_18_2442" result="shape"/>
+</filter>
+<clipPath id="clip0_18_2442">
+<rect x="-384" y="-383" width="1440" height="2464" rx="4" fill="white"/>
+</clipPath>
+<clipPath id="clip1_18_2442">
+<rect width="16" height="16" fill="white" transform="translate(16 16) rotate(180)"/>
+</clipPath>
+</defs>
+</svg>

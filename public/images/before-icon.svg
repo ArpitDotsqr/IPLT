@@ -1,0 +1,23 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="16" height="16" fill="#F5F5F5"/>
+<g id="Frame 1000008408">
+<rect x="-698" y="-94" width="1070" height="745" rx="12" fill="white"/>
+<g id="Frame 1000008118">
+<g id="Frame 1000008121">
+<g id="Frame 1000008111" clip-path="url(#clip0_18_2442)">
+<g id="Frame 1000006390">
+<g id="Frame 1000006370">
+<path id="Ellipse 8" d="M8 1C11.866 1 15 4.13401 15 8C15 11.866 11.866 15 8 15C4.13401 15 1 11.866 1 8C0.999999 4.13401 4.13401 1 8 1Z" fill="white" stroke="#0DAC56" stroke-width="2"/>
+<ellipse id="Ellipse 10" cx="8" cy="8" rx="4" ry="4" transform="rotate(-90 8 8)" fill="#0DAC56"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_18_2442">
+<rect width="324" height="619" fill="white"/>
+</clipPath>
+</defs>
+</svg>

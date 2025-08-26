@@ -1,0 +1,3425 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@100;400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@100;400;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@100;400;500;700&display=swap');
+  
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  border: 1px solid #d5d5d5;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: #eeeeee;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background: #b0b0b0;
+}
+
+:root {
+  --font-family: Roboto;
+}
+.form-select:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.form-check-input:focus {
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow:none;
+}
+.form-control:focus {
+  outline: 0;
+  box-shadow: none;
+}
+/* .manger_edit_details_main table th, td {
+  border: 0 !important;
+} */
+
+/* Login Page CSS Begin */
+.login_form_main {
+  padding-top: 48px;
+}
+.login-user_main{
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.logo_login_main h1 {
+  color: #0F1A2E;
+  font-family:var(--font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0.06px;
+}
+.logo_login_main p {
+  color: #4E5969;
+  font-family:var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.04px;
+}
+.remember_pass  label {
+  color: #02193B;
+  font-family:var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04px;
+}
+span.forgot_password {
+  display: inline-block;
+  color: #02193B;
+  font-family:var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04px;
+}
+
+.login-user_main .login_logo_img {
+  padding-bottom: 32px;
+}
+/* .login-user_main .logo_login_main {
+  padding-right: 32px;
+} */
+.left_side_layer img{
+  position: absolute;
+  width: 50vw;
+  top: 0;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.login_main {
+  padding-bottom: 48px;
+}
+.login_main h1 {
+  color: #0F1A2E;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0.06px;
+  font-family:var(--font-family);
+}
+.login_main p {
+  color: #4E5969;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.04px;
+  font-family:var(--font-family);
+}
+.login_form_main label.form-label {
+  color: #02193B;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04px;
+  font-family:var(--font-family);
+}
+.login_form_main .form-control {
+  padding: 13px 16px;
+  color: #11111399;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family:var(--font-family);
+}
+.login_form_main .form-control:focus {
+  color: unset;
+  background-color: unset;
+  border-radius: 4px;
+ border: 1px solid #11111333;
+  outline: 0;
+  box-shadow: unset;
+}
+.login_form_main .form-check-input:focus {
+  border-color: #0061F6;
+  outline: 0;
+  box-shadow: unset;
+}
+.admin_checkbox{
+  margin-top: 24px;
+  display: flex;
+}
+.admin_checkbox input {
+  border-color: #0061F6;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #0061F6;
+  margin-right: 8px;
+}
+.login_form_main .form-check-label {
+  color: #02193B;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04px;
+  font-family:var(--font-family);
+}
+.login_form_main span.forgot_password {
+  display: inline-block;
+  color: #02193B;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04px;
+}
+/* .login_form_main .remember_pass {
+  padding-bottom: 32px;
+} */
+.login_form_main button.form_login_btn {
+  border-radius: 4px;
+  background: #FF4A1A;
+  padding: 12px 12px 12px 16px;
+  border-color: #FF4A1A;
+  color: #FFF;
+  font-family:var(--font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  margin: 32px 0;
+}
+.login_form_main button.back_btn_login {
+  color: #02193B;
+  font-family:var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04px;
+  padding-left: 0;
+}
+.login_form_main span.back_icon {
+  display: inline-block;
+  padding-right: 8px;
+}
+.login_form_main .form-check input{
+  padding: 10px;
+}
+.login_form_main span.password_visiable {
+  display: inline-block;
+  bottom: 12px;
+  right: 14px;
+}
+
+/* left-menu css start here */
+.left_menu_coloum {
+  background: #0061F6;
+  padding: 35px 0 0 0;
+  height: fit-content;
+  min-height: 100vh;
+  top: 0;
+  position: sticky;
+
+}
+.left_menu_coloum .navbar-toggler:focus{
+box-shadow: none;
+}
+.left_menu_coloum .navbar{
+/* align-items: flex-start; */
+}
+.left_menu_tech_stack_logo.mobile_nav img{
+height: 30px;
+}
+
+  .left_menu_coloum .navbar-toggler{
+    border: 1px solid #fff;
+  }
+  .left_menu_coloum .navbar-toggler span{
+   filter: invert(1);
+  }
+
+.leftmenu_list_tab {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding-left: 0;
+}
+ul.leftmenu_list_tab li {
+  list-style: none;
+  text-align: left;
+  display: flex;
+  width: 100%;
+  }
+  ul.leftmenu_list_tab li.nav_Logout_item{
+    margin-top: 2rem;
+  }
+  .leftmenu_list_tab .left_menu_item {
+    width: 145px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    }
+
+    ul.leftmenu_list_tab li {
+      color: #FFF;
+      font-family: var(--font-family);
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%;
+      cursor: pointer;
+      width: 100%;
+      padding: 20px 10px 10px 27%;
+      display: flex;
+      gap: 10px;
+      border-left: 5px solid transparent;
+      
+      }
+      ul.leftmenu_list_tab li.active{
+        border-left: 5px solid white;
+        background: rgba(255, 255, 255, 0.10);
+      }
+
+      ul.leftmenu_list_tab li:hover {
+      background-color: #ffffff17;
+      color: #ffff;
+    }
+
+.left_menu_tech_stack_logo h2 {
+  color: #FFF;
+  font-family: var(--font-family);
+  font-size: 24.085px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+  letter-spacing: -0.301px;
+}
+
+.left_menu_tech_stack_logo span {
+  font-weight: 700;
+}
+
+.left_menu_tech_stack_logo {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.leftmenu_list_tab .left_menu_item a img {
+  margin-right: 16px;
+}
+
+.blank_space {
+  visibility: hidden;
+}
+.login_dash_boad ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.login_dash_boad a {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.login_dash_boad ul li a span img {
+  margin-right: 16px;
+}
+.login_dash_boad ul li {
+  list-style: none;
+}
+.login_dash_boad:hover {
+  background-color: #ffffff17;
+  color: #ffff;
+}
+.login_dash_boad {
+  color: #FFF;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.login_dashbord_inner {
+  width: 120px;
+  margin: 0 auto;
+}
+/* ProjectAdmin css start here */
+
+.TopStickyHeader{
+  position: sticky;
+  top: 0;
+  height: 100px;
+  z-index: 999;
+}
+
+.project_header {
+  background: #F5F9FF;
+  padding: 23px 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ProjectAdmin {
+  padding: 30px 50px;
+}
+.VendorSection{
+  padding: 0 50px;
+}
+.ProjectAdmin .Geo_location_Details .input-group-text{
+  background: transparent;
+  border-right: 0;
+  }
+  .ProjectAdmin .Geo_location_Details .form-control{
+    border-left: 0;
+  }
+  
+.project_header .Admin_profile {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.project_header .Admin_profile .Admin_name {
+  display: flex;
+  gap: 12px;
+}
+
+.project_header .Admin_profile .Admin_name p {
+  color: #02193B;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0.1px;
+  margin-bottom: 0;
+}
+
+.project_header .Admin_profile .Admin_name span {
+  color: #383838;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.head-active {
+  background: #0061F6 !important;
+  color: #fff !important;
+}
+
+/* .head-active:hover {
+  color: #fff !important;
+} */
+.project_main {
+  padding-top: 32px;
+}
+.admin_tabs_name {
+  border-right: 1px solid #D7DEE8;
+  padding: 12px 24px;
+  background: #F8F8F8;
+  color: #02193B;
+  cursor: pointer;
+  font-family: var(--font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.admin_tabs_name:hover {
+  background-color: #DBE9FF;
+  text-decoration: underline;
+}
+.admin_tabs_name:hover {
+  color: #02193B;
+}
+
+.create_new_project_btn {
+  border-radius: 4px;
+  background: #FF4A1A;
+  padding: 12px 12px 12px 16px;
+  border: none;
+  outline: none;
+  color: #FFF;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.create_new_project_btn:hover {
+  background: #E33000;
+}
+
+.ProjectAdmin_tabs li:nth-child(1) a {
+  border-radius: 20px 0 0 20px;
+}
+
+.ProjectAdmin_tabs li:last-child a {
+  border-radius: 0px 20px 20px 0px;
+}
+.main_uploading_points p {
+  color: #9D9D9D;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+}
+.uploading_point_item {
+  display: flex;
+  flex-wrap: wrap;
+}
+.uploading_point_item p.uploading_content {
+  display: inline-block;
+  color: #424242;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 0;
+}
+/* card css */
+.project_all_card {
+  border-radius: 12px;
+  background: #FFF;
+  box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.08);
+  padding: 16px 16px 24px 16px;
+  margin-top: 32px;
+}
+.project_all_card h2{
+  color: #424242;
+
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+span.project_tag {
+  display: inline-block;
+  border-radius: 45px;
+  background: rgba(0, 97, 246, 0.10);
+  padding: 2px 8px;
+  color: #0061F6;
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 0 20px;
+}
+.project_all_card .project_id_or_view_details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.project_id_or_view_details p {
+  color: #424242;
+  margin-bottom: 0;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.project_all_card .project_id_or_view_details button {
+  color: #0061F6;
+  background-color: transparent;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  text-decoration-line: underline;
+  border: none;
+  padding: 0;
+}
+
+.project_all_card .project_id_or_view_details button:hover {
+  background-color: transparent !important;
+  color: #0061F6;
+}
+
+.project_all_card .project_all_card h2 {
+  color: #424242;
+
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.project_all_card .default_card_table th {
+  padding-right: 10px;
+  color: #9D9D9D;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  border: none;
+  line-height: 150%;
+  border: none;
+}
+
+.project_all_card .default_card_table td {
+  padding-right: 10px;
+  color: #424242;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  border: none;
+
+}
+
+
+.project_all_card .default_card_table {
+  margin-top: 16px;
+  border-bottom: 1px solid #E5E6EB;
+  padding-bottom: 12px;
+}
+
+.project_all_card .Appoint_exucative p {
+  color: #9D9D9D;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  margin-bottom: 0;
+}
+.spangroup{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.project_all_card .Appoint_exucative {
+  margin-top: 12px;
+  border-bottom: 1px solid #E5E6EB;
+  padding-bottom: 12px;
+}
+
+.project_all_card .Appoint_exucative span {
+  color: #424242;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  border-right: 1px solid #000;
+  padding-right: 10px;
+}
+
+.project_all_card .Total_trips h4 {
+  color: #424242;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.project_all_card .Total_trips{
+  margin-top: 32px;
+}
+
+.project_all_card .all_trips {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 12px 20px;
+  align-items: flex-start;
+  gap: 32px;
+  border-radius: 12px;
+  background: #FAFAFA;
+}
+.main_uploading_points{
+  border-right: 1px solid #DADADA;
+}
+.project_all_card .all_trips div{
+  border-right: 1px solid #DADADA;
+  padding-right: 32px;
+}
+.project_all_card .all_trips p{
+  color:  #4E5969;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+  margin-bottom: 0;
+
+}
+.project_all_card .all_trips span{
+  color:  #1D2129;
+  font-family: var(--font-family);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; 
+}
+
+/* create-new-project css start here */
+
+.Project_basic_Detail{
+border-radius: 12px;
+padding: 20px 20px 32px 20px;
+background: #FFF;
+box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.08);
+}
+.ProjectAdmin .Project_basic_Detail{
+  margin-top: 40px;
+}
+.VendorSection .Project_basic_Detail{
+  margin-top: 32px;
+}
+.Project_basic_Detail h2{
+  color: #424242;
+  font-family: var(--font-familye);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  margin-bottom: 20px;
+}
+
+.Project_basic_Detail .form-label,.Project_basic_Detail label{
+  color: #000;
+
+font-family: var(--font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+letter-spacing: 0.04px;
+}
+
+.Project_basic_Detail .form-control{
+  border-radius: 4px;
+  border: 1px solid rgba(17, 17, 19, 0.20);
+  padding: 13px 16px;
+  color:  rgba(17, 17, 19, 0.60);
+font-family: var(--font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+margin-bottom: 16px;
+text-transform: uppercase;
+}
+
+.Project_basic_Detail select{
+  border-radius: 4px;
+  border: 1px solid rgba(17, 17, 19, 0.20);
+  padding: 13px 16px;
+  color:  rgba(17, 17, 19, 0.60);
+font-family: var(--font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+margin-bottom: 16px;
+outline: none;
+width: 100%;
+appearance: auto;
+}
+.Project_basic_Detail .form-control:focus{
+  box-shadow: none;
+}
+.vender_basic_details{
+  margin-top: 40px;
+}
+
+.Project_basic_Detail .save_or_upload_btn button.save_btn{
+  border-radius: 4px;
+  background: #0061F6;
+  padding: 12px 32px;
+  color: #FFF;
+font-family: var(--font-family);
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; 
+border: none;
+outline: none;
+margin-top: 0;
+}
+p.dyke_txt {
+  color: #000;
+  font-family: var(--font-family);
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.05px;
+}
+.dyke_txt_select {
+  min-width: 310px;
+}
+.Project_basic_Detail .save_or_upload_btn button.loading_button_site{
+  border-radius: 4px;
+  border: 1px solid #FF4A1A;
+  background: #FFF;
+  padding: 12px 16px 12px 12px;
+  color: #FF4A1A;
+font-family: var(--font-family);
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%;
+outline: none;
+}
+.Project_basic_Detail .save_or_upload_btn{
+  margin-top: 16px;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+  margin-top: 0;
+}
+.Project_basic_Detail .create_project_table table tr th{
+  border-top: 1px solid rgba(185, 185, 185, 0.00);
+  border-left: 1px solid rgba(185, 185, 185, 0.00);
+  background: rgba(0, 0, 0, 0.00);
+  color:  #4E5969;
+font-family: var(--font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+padding: 10px 12px;
+}
+.Project_basic_Detail .create_project_table table tr td{
+  color:  #4E5969;
+font-family: var(--font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 10px 12px;
+}
+.project_requirments_inner {
+  padding-right: 48px;
+}
+.project_requirments_inner p {
+  color: #000;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.project_requirments_inner .form-control {
+  background: #FAFAFA;
+}
+.project_main_details table {
+  border: 1px solid #dee2e69c;
+}
+.project_main_details span.project-divder {
+  color: #424242;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  border-right: 1px solid #000;
+  padding: 0px 5px;
+  margin-right: 10px;
+}
+
+.project_main_details h3.petrol_pump_txt {
+  color: #9D9D9D;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+}
+ p.text_add_version {
+  color: #0061F6;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-decoration-line: underline;
+  margin-bottom: 0;
+  padding: 12px 16px 12px 12px;
+  border: 1px solid transparent;
+}
+p.text_add_version:hover {
+  border-radius: 4px;
+  border: 1px solid #0061F6;
+  text-decoration: none;
+  padding: 12px 16px 12px 12px;
+}
+p.sub_txt_metric {
+  display: inline-block;
+  color: #1D2129 !important;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: 40px;
+}
+
+.trip_cash_text {
+  padding-right: 50px;
+}
+ .save_or_next_btn button{
+  border-radius: 4px;
+  background: #FF4A1A;
+  padding: 12px 32px;
+  color: #FFF;
+font-family: var(--font-family);
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; 
+border: none;
+outline: none;
+}
+.save_or_next_btn button:hover{
+  background: #FF4A1A !important;
+}
+
+ .save_or_next_btn{
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
+.Add_more_executive button{
+  border-radius: 4px;
+  border: 1px solid #0061F6;
+  background: #FFF;
+  padding: 12px 16px 12px 12px;
+  color: #0061F6;
+font-family: var(--font-family);
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%;
+outline: none;
+}
+.Add_more_executive button:hover{
+  background: #FFF;
+  color: #FF4A1A;
+  border: 1px solid #FF4A1A;
+}
+.Add_more_executive{
+  margin-bottom: 20px;
+}
+
+
+/* Approvals CSS Begin Here */
+
+.approvalsPage_main_detail {
+  border-radius: 12px;
+  padding: 20px 20px 5px 20px;
+  background: #FFF;
+  margin-top: 40px;
+  box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.08);
+}
+.approvalsPage_main_detail h2 {
+  color: #484851;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.05px;
+}
+.approvalsPage_main_detail .ProjectID {
+  display: flex;
+  gap: 32px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.approvalsPage_main_detail .ProjectID input {
+  border-radius: 4px;
+  border: 1px solid  rgba(17, 17, 19, 0.20);
+  padding: 11px 16px;
+  color: rgba(17, 17, 19, 0.60);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  outline: none;
+}
+.approvalsPage_main_detail .ProjectID button {
+  padding: 12px 10px !important;
+  color: #FF4A1A;
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  background-color: transparent;
+  border: 1px solid #FF4A1A;
+}
+.approvalsPage_main_detail table thead th {
+  padding: 10px 12px;
+  color: #4E5969;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-wrap: nowrap;
+}
+.approvalsPage_main_detail table tbody td {
+  padding: 10px 12px;
+  color: #4E5969;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-wrap: nowrap;
+}
+
+.approvalsPage_main_detail table tr td button {
+  padding: 0 !important;
+  color: #0061F6;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  background: transparent;
+  border: none;
+}
+/* .approval_attachment_main {
+  margin-block: 13px;
+  width: 75%;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 50px;
+  display: flex;
+}
+.icon {
+  border: 1px solid blue;
+} */
+
+/* YourComponent.module.css */
+
+.approval_attachment_main {
+  /* margin-block: 13px; */
+  width: 100%;
+  /* border: 1px solid rgb(242, 233, 233); */
+  padding: 4px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  border: 2px solid #0061F6;
+  background-color: #0061F6;
+  padding: 3px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.attachmentIcon {
+  color: white;
+  font-size: 24px; 
+}
+
+.reject_btn button {
+  border-radius: 4px;
+  background: #F00;
+  padding: 12px 20px 12px 16px;
+  border: 0;
+  color: #FFF;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 500;
+}
+.approval_page_btn .reject_btn button span {
+  padding-right: 8px;
+}
+.approve_btn button {
+  border-radius: 4px;
+  background: #0061F6;
+  padding: 12px 20px 10px 16px;
+  color: #FFF;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 500;
+}
+.approve_btn button span {
+  padding-right: 8px;
+}
+.approval_page_btn {
+  gap: 16px;
+}
+
+.approval_main_inner td.visible_view_txt {
+  color: #0061F6;
+}
+.approval_main_inner .create_project_table {
+  border: 2px solid #9d9d9d4d;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+table.table.table tr th {
+  color: #9d9d9d !important;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 10px;
+  text-wrap: nowrap;
+}
+
+
+
+
+
+
+/* Manage Users CSS Begin Here*/
+
+.manageUser_Section{
+  padding: 0 50px;
+}
+.manger_user_main {
+  padding-top: 48px;
+}
+.manger_user_main .manger_user_inner {
+  border-radius: 12px;
+  background: #FFF;
+  box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.08);
+  padding: 16px;
+  margin-bottom: 24px;
+  width: 100%;
+}
+.UserProfile_Picture img{
+  width: 60px;
+height: 60px;
+border-radius: 50%;
+}
+.manageUser_Section .back_btn_all{
+  align-items: center;
+}
+
+.manger_user_main .field_exe_text {
+  color: #424242;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+}
+.manger_user_main span.field_id_name {
+  display: inline-block;
+}
+.manger_user_main span.field_active {
+  display: inline-block;
+  color: #343C4F;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+}
+.manger_user_main .field_btn button {
+  color: #0061F6;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  text-decoration-line: underline;
+}
+.manger_user_main .user_data_left h2 {
+  color: #424242;
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.ManageUserTabal{
+  display: flex;
+align-items: flex-start;
+align-content: flex-start;
+gap: 40px;
+flex-wrap: wrap;
+margin-top: 12px;
+}
+.ManageUserTabal .ManageUserTabalRow span{
+  color: #9D9D9D;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.ManageUserTabal .ManageUserTabalRow p{
+  color: #424242;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+
+.manger_user_main .user_data_left span.filed_admin_text {
+  display: inline-block;
+  color: #0061F6;
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  border-radius: 45px;
+  background: rgba(0, 97, 246, 0.10);
+  text-align: center;
+  padding: 2px 8px;
+  margin: 0 12px;
+}
+span.divider_uploding {
+  border-right: 1px solid #000;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+span.uploading_link {
+  display: inline;
+  padding-left: 24px;
+}
+.manger_user_main .user_inner_data table tbody tr th {
+  color: #9D9D9D;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  border: none;
+}
+.user_inner_data table{
+border: none;
+}
+.manger_user_main .user_inner_data table tbody tr td {
+  color: #424242;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  border: none;
+}
+.manger_user_main .user_inner_data table tbody, td, tfoot, th, thead, tr {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+  padding: 0 35px 0 0;
+}
+.manger_user_main .inner_user_data {
+  padding-top: 16px;
+}
+
+.spanDecoration{
+  color: #0061F6 !important;
+font-family: var(--font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+text-decoration-line: underline;
+}
+
+.manageUserCustomerDetail{
+  display: flex;
+}
+.manger_user_main .user_text_data {
+  padding: 0 12px;
+}
+.main_user_createmain .main_user_document {
+  margin: 40px 0;
+}
+.manger_edit_details_main {
+  border-radius: 12px;
+  background: #FFF;
+  box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+span.field_active {
+  color: #343C4F;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+}
+.edit_manger_active button {
+  color: #0061F6;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration-line: underline;
+}
+.manager_edit_detail_inner h3 {
+  color: #000;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.manager_edit_detail_inner table tr th {
+  color: #9D9D9D;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.manager_edit_detail_inner table tr td {
+  color: #424242;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.manger_details_document p {
+  min-width: 140px;
+  color: #9D9D9D;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.manger_details_document a.nil_text {
+  color: #424242;
+}
+.manager_edit_detail_inner {
+  border-bottom: 1px solid #EAEAEA;
+  padding: 20px 0;
+}
+.manager_edit_detail_inner span.base_adderes_edit {
+  color: #424242;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+
+}
+
+.project_manger_details p {
+  min-width: 120px;
+}
+.manger_edit_details_trip h2 {
+  color: #484851;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+}
+.manger_edit_details_trip_inner {
+  border-radius: 5px;
+  border: 1px solid #E6EBF3;
+  background: #FFF;
+  padding: 8px;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: fit-content;
+  margin-left: auto;
+}
+.manger_edit_details_trip_inner button.trip_item_edit {
+  padding: 10px 16px;
+  color: #11111399;
+  background: #FFF;
+  text-decoration: none;
+  border: none;
+}
+.manageUserCompletedTripsTable table tr th{
+  padding: 10px 12px;
+  color:  #4E5969;
+font-family: var(--font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; 
+}
+.manageUserCompletedTripsTable table tr td{
+  padding: 10px 12px;
+  color: var(--text-4, #4E5969);
+font-family: var(--font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+}
+.manageUserCompletedTripsTable table tr td button{
+  padding: 0 !important; 
+  color: #0061F6;
+font-family: var(--font-family);
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; 
+text-decoration-line: underline;
+background: transparent;
+border: none;
+}
+.manageUserCompletedTripsTable table tr td button:hover{
+  background: transparent;
+  text-decoration-line: underline;
+  color: #0061F6;
+}
+
+.manger_edit_details_trip_inner button.trip_item_edit:focus{
+  background-color: #0061F6;
+  color: white;
+}
+.manger_edit_details_trip_inner{
+  color: black;
+}
+.manger_edit_details_trip {
+  padding-bottom: 30px;
+}
+.manger_edit_image_bar_item p {
+  color: #4E5969;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.manger_edit_image_bar_item span {
+  color: #1D2129;
+  font-family: var(--font-family);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.manger_edit_image_bar_item {
+  padding-top: 16px;
+}
+.manger_edit_image_bar_inner {
+  min-width: 300px;
+}
+.manger_edit_image_bar_item p.running_txt {
+  color: #0061F6;
+  text-decoration: underline;
+}
+.trip_edit_main {
+  padding: 20px 20px 24px 20px;
+}
+.trip_edit_main span.icon_trip_details img {
+  display: inline-block;
+}
+button.loding_site_btn {
+  border-radius: 4px;
+  border: 1px solid #FF4A1A;
+  background: #FFF;
+  padding: 12px 16px 12px 12px;
+  color: #FF4A1A;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  outline: none;
+  max-height: 50px !important;
+  padding: 12px 25px;
+}
+
+.completed_trip_content input {
+  padding: 12px 10px;
+}
+.completed_trip_content {
+  gap: 32px;
+}
+span.vender_edit_ {
+  color: #424242;
+}
+/* Vender Page CSS Begin Here */
+.vender_main .user_inner_data table tbody, td, tfoot, th, thead, tr {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+  padding: 0 50px 0 0;
+}
+.vender_data_content {
+  width: 100%;
+}
+.venderDefaultd_flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+input.search_filter_ {
+  color: rgba(17, 17, 19, 0.60);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 16px 11px;
+}
+span.filter_icon_ {
+  display: inline-block;
+  border-radius: 4px;
+  background: #ECF3FF;
+  padding: 3px 7px;
+}
+.filter_icon_main button::after{
+  display: none;
+}
+.filter_icon_main 
+ button:active {
+    border: none;
+}
+.vendor_document_tab{
+  color: #000;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; 
+  letter-spacing: 0.04px;
+}
+.Vendor_Capability_table table{
+  border: 1px solid #E5E6EB;
+  border-radius: 10px;
+}
+.VendorsEditDetailSection {
+  padding: 30px 50px;
+}
+.VendorsEditDetailSection .back_btn_all{
+  padding: 0;
+}
+
+.vendors_edit_detail_inner{
+  border-bottom: 1px solid #EAEAEA;
+  padding: 20px 0
+}
+.vendorsDetailsTable{
+  display: flex;
+align-items: flex-start;
+align-content: flex-start;
+gap: 40px;
+flex-wrap: wrap;
+}
+.vendorsDetailsTable span{
+  color: #9D9D9D;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; 
+}
+.vendorsDetailsTable p{
+  color: #424242;
+font-family: var(--font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+margin: 0;
+}
+.vendors_edit_detail_inner h3{
+  color: #000;
+font-family: var(--font-family);
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; 
+letter-spacing: 0.05px;
+}
+
+.vendors_difault_tabal{
+  display: flex;
+align-items: flex-start;
+align-content: flex-start;
+gap: 16px 40px;
+flex-wrap: wrap;
+margin-top: 12px;
+}
+.vendoer_table_col .tableHead{
+  color: #9D9D9D;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.vendoer_table_col .tableData{
+  color: #424242;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; 
+}
+
+.Vendor_Capability_table tr td{
+  padding: 10px 12px;
+  color:  #4E5969;
+font-family: var(--font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+background: rgba(255, 255, 255, 0.00);
+}
+.Vendor_Capability_table tr th{
+  padding: 10px 12px;
+  color:  #4E5969;
+font-family: var(--font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; 
+}
+.Vendor_Capability_table thead{
+  border-bottom: 1px solid #E5E6EB;
+background: rgba(255, 255, 255, 0.00);
+}
+.Vendor_Capability_table{
+  margin-top: 40px;
+}
+.Vendor_Capability_table .EditOrDeleteBtn{
+  display: flex;
+  gap: 8px;
+}
+.EditOrDeleteBtn button{
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+.Vendor_Capability_Add_Import_btn{
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+.Vendor_Capability_Add_Import_btn button:nth-child(1){
+  border-radius: 4px;
+background: #0061F6;
+color: #FFF;
+font-family: var(--font-family);
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%;
+border: none;
+padding: 12px 16px 12px 12px;
+}
+.ImportFromCSVBtn{
+  border-radius: 4px;
+  border: 1px solid #FF4A1A;
+  background: #FFF;
+  color: #FF4A1A;
+font-family: var(--font-family);
+padding: 12px 16px 12px 12px;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; 
+}
+.ImportFromCSVBtn:hover{
+  border: 1px solid #FF4A1A;
+  background: #FFF;
+  color: #FF4A1A;
+}
+.Vendor_Capability_Add_Import_btn button:hover{
+  background: #0061F6;
+color: #FFF;
+}
+.EditOrDeleteBtn button:hover{
+  background-color: transparent;
+}
+
+span.start_icon {
+  display: inline-block;
+  color: #F00;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 3px;
+}
+
+
+.vender_document_main button {
+  border-radius: 4px;
+  background: #FF4A1A;
+  padding: 12px 32px;
+  color: #FFF;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  border: none;
+  outline: none;
+}
+.vender_document_main {
+  margin: 24px 0;
+}
+.vender_edit_delt p:nth-child(1) {
+  min-width: 330px;
+}
+.vendor_details_edit_view {
+  padding-top: 8px;
+}
+.vender_aset_details {
+  border: 0;
+}
+.vendor_details_edit_view table tr th{
+  color: #4E5969;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 10px 12px;
+}
+
+.vendor_table_responsive{
+  border: 1px solid #E5E6EB;
+}
+.vendor_table_responsive table{
+  margin-bottom: 0;
+}
+.vendor_details_edit_view table tr td{
+  color:  #4E5969;
+font-family: var(--font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+padding: 10px 12px;
+}
+
+.Project_basic_Detail h4{
+  color: #000;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+  letter-spacing: 0.05px;
+}
+
+
+/* Vehicle_details_table css start here*/
+.Vehicle_details_table table tr th{
+  color:  #4E5969;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; 
+  white-space: nowrap;
+}
+
+.Vehicle_details_table table tr td{
+  color: var(--text-4, #4E5969);
+font-family: var(--font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+}
+
+
+
+
+
+/* Back Button CSS Begin */
+
+.back_btn_all {
+  padding: 32px 0;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.VendorSection .back_btn_all{
+  align-items: center;
+}
+.back_btn_all span.back_icon {
+  display: inline-block;
+  padding-right: 8px;
+}
+.back_btn_all p {
+  color: #1F1F1F;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.back_btn_all .back_import button {
+  color: #FF4A1A;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  border-radius: 4px;
+  border: 1px solid #FF4A1A;
+  padding: 12px 16px 12px 12px;
+}
+
+span.import_icon {
+  display: inline-block;
+  padding-right: 6px;
+}
+/* .back_import:hover 
+ button {
+    color: #fff;
+} */
+/* .back_import:hover {
+  background-color: #FF4A1A;
+} */
+
+button.update_exe_btn {
+  border-radius: 4px;
+  background: #FF4A1A;
+  padding: 12px 32px;
+  color: #FFF;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  border: none;
+  outline: none;
+}
+.save_or_upload_btn {
+  margin-top: 40px;
+  margin-bottom: 24px;
+}
+
+/* DashboardPage css start here */
+.Admin_DashboardPage{
+  padding: 50px 50px;
+  
+}
+.Admin_DashboardPage_gap .create_new_project_btn{
+margin-bottom: 0;
+}
+.DashboardPage_inner_detail{
+  padding: 20px 20px 24px 20px;
+  border-radius: 12px;
+  background: #FFF;
+  box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.08);
+}
+.DashboardPage_inner_detail h2{
+  color: #02193B;
+font-family: var(--font-family);
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 36px */
+letter-spacing: 0.06px;
+}
+.DashboardPageROw{
+  align-items: center;
+  justify-content: space-between;
+}
+.DashboardPage_inner_detail .about_trips_detail{
+  border-radius: 12px;
+  border: 1px solid #E6EBF3;
+  padding: 20px;
+  margin-top: 20px;
+}
+.about_trips_detail_inner{
+  display: flex;
+align-items: flex-start;
+gap: 36px;
+}
+.about_trips_detail_inner_col{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+}
+.about_trips_detail_inner_col p{
+  color:  #4E5969;
+font-family: var(--font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+margin-bottom: 0;
+}
+.about_trips_detail_inner_col h2{
+  color:#1D2129 !important;
+  font-family: var(--font-family);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; 
+  margin-bottom: 0;
+}
+.about_trips_detail_inner_col h2 p{
+  color:#1D2129;
+  margin-bottom: 0;
+  display: inline;
+}
+ span.span_first{
+  color:  #F53F3F;
+font-family: var(--font-family);
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; 
+}
+ span.span_secound{
+  color:  #86909C;
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; 
+  display: inline-block
+}
+.DashboardPage_inner_detail .DashboardPageAboutProject .ProjectID button{
+  padding: 12px 10px !important;
+  color: #FF4A1A;
+font-family: var(--font-family);
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 133.333% */
+background-color: transparent;
+border: 1px solid #FF4A1A;
+}
+.DashboardPage_inner_detail .DashboardPageAboutProject .ProjectID input{
+  border-radius: 4px;
+  border: 1px solid  rgba(17, 17, 19, 0.20);
+  padding: 11px 16px;
+  color: rgba(17, 17, 19, 0.60);
+font-family: var(--font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%;
+outline: none;
+}
+.DashboardPage_inner_detail .DashboardPageAboutProject .ProjectID {
+  display: flex;
+  gap: 32px;
+  justify-content: flex-end;
+align-items: center;
+}
+.DashboardPage_inner_detail table thead th{
+  padding: 10px 12px;
+  color: #4E5969;
+font-family: var(--font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; 
+text-wrap: nowrap;
+}
+.DashboardPage_inner_detail table tbody td{
+  padding: 10px 12px;
+  color:  #4E5969;
+font-family: var(--font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+text-wrap: nowrap;
+}
+.Admin_DashboardPage_gap{
+  display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 40px;
+width: 100%;
+}
+
+
+
+
+/* TripAdminSection css start here */
+.TripAdminSection{
+  padding: 30px 50px;
+}
+.TripAdminSection .TripAdminSectionInnerTab{
+  width: 100%;
+}
+
+.TripAdminSection .TripAdminSectionInnerTab .TripsInnerCol{
+border-radius: 12px;
+background: #FFF;
+box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.08);
+height: 100%;
+}
+.TripAdminSection .TripAdminSectionInnerTab .TripsInnerCol .TripsInnerColSecOne{
+  display: flex;
+  padding: 12px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 12px;
+ background: #FFF;
+}
+.TripAdminSection .TripAdminSectionInnerTab .TripsInnerCol .TripsInnerColSecOne .TripsId{
+ display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+}
+.TripAdminSection .TripAdminSectionInnerTab .TripsInnerCol .TripsInnerColSecOne .TripsId h4{
+  color: #333;
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; 
+ }
+ .TripAdminSection .TripAdminSectionInnerTab .TripsInnerCol .TripsInnerColSecOne .TripsId span{
+  border-radius: 24px;
+  background: rgba(0, 97, 246, 0.10);
+  padding: 2px 8px;
+  color: #0061F6;
+font-family: var(--font-family);
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+ }
+ .TripAdminSection .TripAdminSectionInnerTab .TripsInnerCol .TripsInnerColSecOne .TripsId span.TripStatuscompleted{
+  background-color: #0DAC561A;
+  background: #E7F7EE;
+  color: #0DAC56;
+
+ }
+
+ .TripAdminSection .TripAdminSectionInnerTab .TripsInnerCol .TripsInnerColSecOne .trip_from_to{
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: space-between;
+ }
+ .TripAdminSection .TripAdminSectionInnerTab .TripsInnerCol .TripsInnerColSecOne .trip_from_to .trip_from_to_inner h3{
+  color: #424242;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; 
+}
+.TripAdminSection .TripAdminSectionInnerTab .TripsInnerCol .TripsInnerColSecOne .trip_from_to .trip_from_to_inner p{
+  color: #9D9D9D;
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; 
+  margin: 0;
+  text-wrap: nowrap;
+}
+.TripAdminSection .TripAdminSectionInnerTab .TripsInnerCol .TripsInnerColSecOne .tripFromToBtn{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.TripAdminSection .TripAdminSectionInnerTab .TripsInnerCol .TripsInnerColSecOne .tripFromToBtn .tripFromToInnerBtn button{
+height: 62px;
+}
+.TripAdminSection .TripAdminSectionInnerTab .TripsInnerCol .TripsInnerColSectwo{
+  border-radius: 12px;
+  background: #FFF;
+  padding: 12px 16px;
+}
+.TripAdminSection .TripAdminSectionInnerTab .TripsInnerCol .TripsInnerColSectwo .TripsInnertabel{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.TripAdminSection .TripAdminSectionInnerTab .TripsInnerCol .TripsInnerColSectwo .TripsInnertabel span{
+  color: #9D9D9D;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; 
+}
+.TripAdminSection .TripAdminSectionInnerTab .TripsInnerCol .TripsInnerColSectwo .TripsInnertabel p{
+  color: #424242;
+font-family: var(--font-family);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+margin-bottom: 0;
+}
+.TripAdminSection .TripAdminSectionInnerTab .TripsInnerCol .TripsInnerColSectwo .TripsInnertabel .TripsInnertabelData{
+  margin-bottom: 12px;
+}
+.TripAdminSection .AllTripsTab{
+margin-top: 32px;
+}
+.modalInnerForm .ModalField label{
+  color: #000;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; 
+  letter-spacing: 0.04px;
+  display: block;
+}
+.modalInnerForm .ModalField input{
+  border-radius: 4px;
+  border: 1px solid  rgba(17, 17, 19, 0.20);
+  padding: 13px 16px;
+  width: 100%;
+  outline: none;
+  color:  #111113;
+font-family: var(--font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; 
+margin-bottom: 20px;
+}
+.TripAdminModal .modal_header{
+border-bottom: none;
+padding: 0;
+margin-bottom: 24px;
+}
+.TripAdminModal .modal_header button{
+background-color: transparent;
+border: none;
+color: #1F1F1F;
+font-family: var(--font-family);
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%;
+letter-spacing: 0.05px;
+padding: 0;
+}
+.TripAdminModal .modal_header button:hover{
+  background-color: transparent;
+border: none;
+color: #1F1F1F;
+}
+.modal-backdrop.show{
+  opacity: 0.25;
+}
+.TripAdminModal .modal-content{
+  border-radius: 12px;
+  background: #FFF;
+  padding: 32px;
+  border: none;
+}
+.TripAdminModal .modal-content .modal-body{
+  padding: 0;
+}
+.ProgressBar {
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: flex-end;  */
+  align-items: flex-start;
+}
+
+.ProgressBarDot {
+  width: 20px;
+  height: 20px;
+  background-color: #ccc; /* Default dot color */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px; /* Spacing between dots */
+  position: absolute;
+  left: -26px;
+  top: 0;
+}
+
+.ProgressBarDot.completed {
+  background-color: #4caf50; /* Green dot color */
+}
+
+.ProgressBarLineSegment {
+  width: 2px;
+  height: 153px;
+  background-color: #8080807a;
+  margin-bottom: 170px;
+}
+
+.ModalRightSideSection {
+  overflow-y: auto;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  position: relative;
+  padding-left: 40px;
+}
+
+.TripsModalBody h3{
+  color: #333;
+font-family: var(--font-family);
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; 
+margin-bottom: 24px;
+}
+
+.TripsModalBody span.Running_span{
+  border-radius: 24px;
+background: rgba(0, 97, 246, 0.10);
+padding: 2px 8px;
+color: #0061F6;
+font-family: var(--font-family);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+margin-bottom: 12px;
+display: inline-block;
+}
+.TripAdminModal .modal-dialog{
+margin-bottom: 0;
+}
+
+/* Audit Logs CSS Begin Here  */
+
+.audit_logo_main span.audit_user_txt {
+  display: block;
+  color: #4E5969;
+  font-size: 12px;
+  font-family: var(--font-family);
+  font-weight: 400;
+}
+
+
+
+
+
+/* custom css classes */
+.w_100{
+  width: 100%;
+}
+
+/* Responsive Beign Here*/
+
+@media only screen and (min-width: 1900px) {
+  .left_menu_coloum {
+    height: 100vh;
+}
+}
+
+@media (max-width:1400px) {
+
+  .TripAdminSection .TripAdminSectionInnerTab .TripsInnerCol .TripsInnerColSecOne .trip_from_to{
+    width: 100%;
+  }
+  .TripAdminSection .TripAdminSectionInnerTab .TripsInnerCol .TripsInnerColSecOne .tripFromToBtn{
+    gap: 10px;
+  }
+ 
+}
+@media (max-width:1200px) {
+  ul.leftmenu_list_tab li{
+    padding: 10px 10px 10px 12%;
+  }
+  .manger_user_main .user_data_left span.filed_admin_text{
+    text-align: center;
+  }
+ 
+}
+@media (max-width:1024px) {
+  .Executive_Trip_details{
+    display: flex;
+    justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start !important;
+
+  }
+}
+
+@media (max-width:900px) {
+  .ManageUserTabal{
+    gap: 30px;
+  }
+}
+
+@media (max-width:992px) {
+
+  .Project_basic_Detail .create_project_table table tr th,.Project_basic_Detail .create_project_table table tr td,
+  .vender_data_content table thead th,.manger_user_main .user_inner_data table tbody tr td,.vendor_details_edit_view table tr th,
+  .manager_edit_detail_inner table tr td,.Vendor_Capability_table tr th,.project_all_card .default_card_table th,.DashboardPage_inner_detail table thead th,.DashboardPage_inner_detail table tbody td,.project_all_card .default_card_table td,.manageUserCompletedTripsTable table tr th,.manageUserCompletedTripsTable table tr td{
+    text-wrap: nowrap;
+  }
+
+
+  .desktop_nav{
+  display: none;
+  }
+  
+  .mobile_nav,.tech_stak_logo_or_name{
+    display: block !important;
+  }
+  .left_menu_coloum{
+    position: relative;
+    height: unset;
+    min-height: unset;
+    padding: 10px 15px;
+  }
+  .left_menu_tech_stack_logo{
+    margin-bottom: 0;
+  }
+  .TripAdminSection .TripAdminSectionInnerTab .TripsInnerCol{
+    margin-bottom: 16px;
+  }
+  ul.leftmenu_list_tab li{
+    padding: 10px 10px 10px 10px;
+  }
+  .leftmenu_list_tab{
+    margin-top: 30px;
+  }
+  .left_menu_tech_stack_logo h2{
+    display: none;
+  }
+  .left_menu_tech_stack_logo img{
+   height: 48px !important;
+  }
+  
+}
+
+
+
+@media (max-width:768px) {
+  .ProjectAdmin ,.VendorsEditDetailSection{
+    padding: 0 10px;
+  }
+  .left_menu_coloum{
+    position: relative;
+    height: auto;
+  }
+  .project_header{
+    padding: 20px;
+  }
+  
+  .create_project_main,.ProjectAdmin_tabs{
+    gap: 10px;
+  }
+  .ProjectAdmin_tabs li a{
+    border-radius: 20px !important;
+    width: 100%;
+  }
+  .ProjectAdmin_tabs li{
+    width: 100%;
+  }
+  .manageUser_Section{
+    padding: 0 20px;
+  }
+  .vender_edit_delt p:nth-child(1){
+    min-width: 100%;
+  }
+  .venderDefaultd_flex{
+    gap: 12px;
+  }
+  .back_btn_all{
+    padding: 20px 0; 
+  }
+
+  .login-user_main .logo_login_main{
+    padding-right: 0;
+  }
+ 
+  .ManageUserTabal{
+    gap: 15px;
+  }
+  .manageUser_Section .FilterItemSec{
+    margin-top: 20px;
+  }
+  .Admin_DashboardPage{
+    padding: 50px 0px;
+  }
+  .Admin_DashboardPage_gap .col-md-12{
+    padding-right: 0;
+  }
+  .TripAdminSection .TripAdminSectionInnerTab .TripsInnerCol .TripsInnerColSectwo .TripsInnertabel{
+    justify-content: unset;
+    gap: 40px;
+  }
+  .TripAdminSection{
+    padding: 30px 15px;
+  }
+}
+@media (max-width:500px) {
+  .DashboardPage_inner_detail .DashboardPageAboutProject .ProjectID{
+    flex-direction: column;
+    align-items: unset;
+  }
+  .left_menu_coloum{
+    padding: 0 10px;
+  }
+  
+}
+@media (max-width:450px) {
+  .TripAdminSection .TripAdminSectionInnerTab .TripsInnerCol .TripsInnerColSectwo .TripsInnertabel{
+    justify-content: space-between;
+    gap: unset;
+  }
+  
+}
+@media (min-width:1600px) {
+  .TripAdminSection .TripAdminSectionInnerTab .TripsInnerCol .TripsInnerColSectwo .TripsInnertabel{
+    justify-content: unset;
+    gap: 40px;
+  }
+}
+
+
+
+.Executive_Trip_details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter_icon_main button{
+  outline: none !important;
+  border: none !important;
+}
+
+.mobile_nav,.tech_stak_logo_or_name{
+  display: none;
+}
+
+
+
+/* --------------------calendar-css---------------------- */
+.react-datepicker-popper[data-placement^=bottom]{
+  margin-top: -16px;
+}
+/* --------------------calendar-css---------------------- */
+input[type=file]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #0061F6;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  /* position: absolute;
+  right: -10px;
+  top: 9px; */
+  /* transition: background .2s ease-in-out; */
+}
+.file_revers{
+  position: relative;
+}
+ input[type=file]::file-selector-button{
+position: absolute;
+top: 9px;
+right: -10px;
+} 
+
+input[type=file]::file-selector-button:hover {
+  background-color: #0061F6 !important;
+}
+input::file-selector-button {
+  background: #0061F6 !important;
+}
+
+.bg-fileclass{
+    border-radius: 4px;
+    border: 1px solid rgba(17, 17, 19, 0.20);
+    padding: 6px ;
+    color: rgba(17, 17, 19, 0.60);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 16px;
+
+}
+
+.form-control-image {
+  border-radius: 4px;
+  border: 1px solid rgb(246, 246, 248);
+  color: #fff !important; 
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 20px;
+  background:  #0061F6 !important;
+  cursor: pointer; 
+  display: inline-block; 
+  text-align: center; 
+  transition: 0.3s;
+}
+
+.form-control-image:hover {
+  background:  #0061F6 !important;;
+}
+
+
+/* -----------------------rahul--------------------------- */
+
+@media (max-width:768px){
+  .left_side_layer{
+    display: none;
+  }
+
+  .logo_login_main{
+    padding-top: 40px;
+  }
+  .Project_basic_Detail .form-label, .Project_basic_Detail label {
+    font-size: 14px;
+}
+}
+
+.loader_page{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #ffffff47;
+  backdrop-filter: blur(3px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 9;
+  flex-direction: column;
+}
+.loading{
+  font-size: 16px;
+  font-weight: 500;
+  color: #3457D5;
+  margin-left: -30px;
+  margin-top: 10px;
+}
+
+/* no data page  */
+
+.no_data_page {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+  color: var(--admin-btn-bg);
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item_end{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* ---------------------pagination-css-start----------------------- */
+.item_justify{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ---------------------pagination-css-end----------------------- */
+.item_center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.bg_image{
+  width: 100%;
+  background-image: url("/images/bg-road.svg");
+  background-size: cover;
+  background-position: center;
+  /* object-fit: cover; */
+  background-repeat: no-repeat;
+}
+.login_form{
+  max-width: 600px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  padding: 32px;
+  background-color: #fff;
+}
+.Executive_btn{
+  padding: 8px 10px;
+  /* border: 2px solid #FF4A1A; */
+  color: #FF4A1A;
+  /* background-color:  #3457D5; */
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: transparent;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  max-width: 190px;
+}
+.Executive_btn:hover{
+  background-color:  #3457D5;
+  /* color: #fff; */.comman_add_btn button {
+    padding: 12px  25px;
+    border-radius: 4px;
+}
+}
+
+.file_revers{
+  display: flex;
+  flex-direction: row-reverse !important;
+}
+.text_area{
+  background-color: #F2F2F2;
+  border: 0;
+  border-radius: 12px;
+  width: 100%;
+  min-height: 90px;
+  padding: 16px;
+  font-size: 12px;
+  color: #333;
+}
+.comman_add_btn{
+  display: flex;
+  gap: 16px;
+  margin-top: 5px;
+}
+
+.comman_add_btn button {
+    padding: 12px  25px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+
+/* Accodion Vender CSS Begin Here */
+
+.accodion_main h2.accordion_title button{
+  color: #000;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.accodion_main .accordion-item h2.accordion_title button {
+  background-color: transparent;
+  padding-inline: 0;
+  border-bottom: 0;
+  box-shadow: none;
+  position: relative;
+  padding: 8px 0;
+}
+.accodion_main .accordion-item h2.accordion_title button:focus {
+  box-shadow: none;
+}
+.accodion_main .accordion-item {
+  border: none;
+}
+.accodion_main  .accordion-item .accordion-body {
+  padding-inline: 0px;
+}
+  .RateHourSlect {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-14%, -38%);
+}
+
+.RateHourSlect select{
+  border-radius: 4px;
+border: 1px solid #0061F6 !important;
+background: rgba(0, 97, 246, 0.10) !important;
+padding: 8px 12px 8px 16px !important;
+margin-bottom: 0 !important;
+}
+.RateHourSlect select:hover{
+  background-color: #0061F6 !important;
+  color: #fff;
+}
+
+.MaterialType{
+  border-radius: 45px;
+border: 1px solid #0061F6;
+padding: 4px 12px;
+color: #0061F6;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 21px */
+}
+.Material{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.ProjectTopHeading{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.arrowbtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.indexedStep {
+  height: 16px;
+  width: 16px;
+  background-color: #cfffe8;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.accomplished {
+  background-color: #50b282;
+}
+.ProjectInformation,.VendorInformation{
+  padding-top: 0;
+}
+.loadingAddress{
+  text-wrap: wrap !important;
+}
+.FlexAndAlign{
+  display: flex;
+  align-items: center;
+}
+.filter_icon_main .dropdown-menu a:hover{
+  background: #D4E5FF;
+
+}
+.filter_icon_main .dropdown-menu a{
+padding: 13px 16px 13px 16px !important;
+border-radius: 4px;
+
+}
+.filter_icon_main .dropdown-menu
+{
+  padding: 0 !important; 
+  margin-top: 10px;
+}
+label.border_btn {
+  color: #FF4A1A;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  border-radius: 4px;
+  border: 1px solid #FF4A1A;
+  padding: 12px 16px 12px 12px;
+}
+.FilterItemSec button.border_btn{
+  color: #FF4A1A;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  border-radius: 4px;
+  border: 1px solid #FF4A1A;
+  padding: 12px 16px 12px 12px;
+}
+
+.project_requirments_main input[type="radio"],.project_requirments_inner input[type="radio"]{
+width: 20px;
+height: 20px;
+}
+.ProjectRequirementTab input[type="checkbox"],.ProjectRequirementTab input[type="checkbox"]{
+  width: 20px;
+  height: 20px;
+  }
+.project_requirments_main label,.project_requirments_inner label{
+  margin: 0 !important;
+}
+.RequirementTabDFlex{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.RequirementLabelCheckbox{
+  display: flex;
+  gap: 40px;
+}
+.VehiclePassRequirement{
+margin-bottom: 20px;
+}
+.ModalRightSideSectionInner{
+  position: relative;
+}
+span.ModalRightSideSectionInnerSpan{
+
+padding: 2px 8px 2px 8px !important;
+border-radius: 24px;
+margin-bottom: 8px;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0px;
+text-align: left;
+color: #0061F6;
+background-color:rgba(0, 97, 246, 0.10) !important;
+display: inline-block;
+
+
+}
+.ModalRightSideSectionAboutCustomer p{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #424242;
+  margin-bottom:8px;
+  
+}
+.TripViewAttachmentsBtn{
+margin-bottom: 8px;
+}
+.calendarWrap{
+  position: relative;
+}
+.calendarElement{
+    right: 0;
+    position: absolute;
+    background: white;
+    z-index: 10;
+    top: 60px;
+}
+.calendarWrap input{
+  color: rgba(17, 17, 19, 0.60);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 16px 11px;
+  border-radius: 0.375rem;
+  border: 1px solid #dee2e6;
+  outline: none;
+}
+/* .WorkOrderStyle{
+  gap: 32px;
+  display: flex;
+  justify-content: end;
+  align-items:center;
+  margin-bottom: 24px;
+}
+.WorkOrderStyle .create_new_project_btn{
+margin: 0;
+} */
+.SelectWorkOrder{
+  margin: 8px 0;
+}
+ .SelectWorkOrder__control, .Invoiceselect__control{
+min-height: unset;
+/* border: none; */
+/* background-color: transparent !important; */
+/* border-style: none !important; */
+}
+.InvoiceCreateProject .Invoiceselect__control{
+  padding: 7px 8px;
+  margin-bottom:20px;
+
+}
+.SelectWorkOrder__indicator-separator,.Invoiceselect__indicator-separator{
+  display: none;
+}
+.SelectWorkOrder .css-1fdsijx-ValueContainer,.Invoiceselect .css-1fdsijx-ValueContainer{
+  padding: 0;
+}
+.TripAdminSection .FilterItemSec{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: 15px;
+}
+.TripAdminSection .FilterItemSec .back_import button{
+  color: #FF4A1A;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  border-radius: 4px;
+  border: 1px solid #FF4A1A;
+  padding: 12px 16px 12px 12px;
+}
+.UploadAndSampleButton{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: flex-end;
+}
+.NotificationButton{
+  background: none;
+  border: none;
+}
+.NotificationButton:hover{
+  background: none;
+  border: none;
+}
+.NotificationButton:focus-visible,.NotificationButton:focus{
+  background: none !important;
+  border: none;
+  outline: unset;
+  box-shadow: none !important;
+}
+.NotificationButton.dropdown-toggle::after{
+  display: none;
+}
+.NotificationButton.btn.show{
+  background: none !important;
+  border: none;
+  outline: unset;
+  box-shadow: none !important;
+}
+.infraPrimeLogo{
+  height: 100px;
+  margin-bottom: 10px;
+}
+.DropDownNotificationStatus{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 0;
+  padding: 7px 0;
+}
+.DropDownNotificationStatus img{
+  filter: opacity(0.7);
+}
+.notification_icon{
+  position: relative;
+}
+.notification_iconDot{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: blue;
+  right: 0;
+  top: 0;
+}
+
+.fontSIzeClass{
+  font-size: 13px;
+  color: grey;
+}
+
+.terms-condition{
+  border: 0px transparent;
+  width: 100%;
+  outline: 0px;
+  overflow: auto;
+  white-space: pre-wrap; 
+  word-wrap: break-word;
+}
+
+.additioninput{
+  border: 1px solid #d2caca;
+  width: 70%;
+  outline: 0px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.add-button{
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.additionalfieldborder{
+  border-bottom: 1px solid #000;
+  width: 100%;
+  margin-bottom: 5px;
+  outline: 0;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+
+.MapComponentSection{
+  padding: 24px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0px 6px 20px 0px #00000014;
+}
+.MapComponentSection .TotalPendingOrder,.ProjectWiseDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.MapComponentSection .TotalPendingOrder{
+  height: 344px;
+  min-height: auto;
+}
+@media (max-width:768px) {
+  .MapComponentSection .TotalPendingOrder{
+    height: unset;
+  }
+  .MapComponentSection .TotalPendingOrder canvas{
+    width: 100% !important;
+    height: 400px !important;
+  }
+}
+.MapComponentSection h3{
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.0025em;
+  color: #484851;
+  
+}
+.MapComponentSection .ProjectWiseDetails .ProjectWiseDetailsFlexcol{
+margin-top: 26px;
+}
+.MapComponentSection .ProjectWiseDetails .ProjectWiseDetailsFlexcol span{
+  padding: 8px 16px 8px 16px;
+  gap: 8px;
+  background: #0061F6;
+  display: block;  
+  border-radius: 4px;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  display: block;
+
+}
+.MapComponentSection .ProjectWiseDetails .ProjectWiseDetailsFlexcol p{
+  background: #F3F3F3;
+  color: #1D2129;
+  padding: 8px 16px 8px 16px;
+  gap: 8px;
+  border-radius: 4px;
+  margin: 0;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+
+
+}
+.ProjectWiseDetailsInner .form-control{
+  border-radius: 4px;
+    border: 1px solid rgba(17, 17, 19, 0.20);
+    padding: 13px 16px;
+    color: rgba(17, 17, 19, 0.60);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    appearance: auto;
+}
+.ProjectWiseDetailsInner label{
+  font-family: var(--font-family);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.0025em;
+color: #000000;
+}
+
+.TripPerformenceSection {
+  padding: 24px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0px 6px 20px 0px #00000014;
+}
+.TripPerformenceSection .TripPerformenceColoumn{
+display: flex;
+flex-direction: column;
+gap: 24px;
+height: 100%;
+justify-content: space-between;
+}
+.TripPerformenceSection .TripPerformenceColoumn h3{
+  font-family: var(--font-family);
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0.0025em;
+color: #484851;
+}
+.TripPerformenceSection .TripPerformenceColoumn select{
+    border-radius: 4px;
+    border: 1px solid rgba(17, 17, 19, 0.20);
+    padding: 19px;
+    color: rgba(17, 17, 19, 0.60);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    appearance: auto;
+}
+.PerformanceofFleet{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.PerformanceofFleetFlex{
+display: flex;
+background: #F3F3F3;
+}
+.PerformanceofFleetFlex span{
+  padding: 8px 16px 8px 16px;
+  gap: 8px;
+  background: #0061F6;
+  display: block;  
+  border-radius: 4px;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  width: 44%;
+  align-items: center;
+  justify-content: center;
+}
+.PerformanceofFleetFlex p{
+  background: #F3F3F3;
+  color: #1D2129;
+  padding: 8px 16px 8px 16px;
+  gap: 8px;
+  border-radius: 4px;
+  margin: 0;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+  width: 50%;
+}
+.PerformanceofFleetFlexGap{
+  background: #F3F3F3;
+  height: 100%;
+}
+.TripPerformenceRow{
+  --bs-gutter-y: 18px;
+}
+.PerformanceofFleetFlexGap span{
+  padding: 8px 16px 8px 16px;
+  gap: 8px;
+  background: #0061F6;
+  display: block;  
+  border-radius: 4px;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.PerformanceofFleetFlexGap p{
+  background: #F3F3F3;
+  color: #1D2129;
+  padding: 8px 16px 8px 16px;
+  gap: 8px;
+  border-radius: 4px;
+  margin: 0;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+  width: 100%;
+}
+.TripPerformenceColoumn .form-control[type='date']{
+  text-transform: uppercase;
+}
+.AuditLogFilterButton{
+  gap: 0px;
+}
+
+.Admin_DashboardPage .calendarElement{
+left: 0 !important;
+right: unset;
+top: 40px;
+}
+.TripAdminSection .calendarElement{
+  top:40px;
+}
+.Financial_invoice{
+  padding: 0 50px;
+}
+.Financial_invoice{
+  margin-top: 70px
+}
+.Financial_invoice h4{
+  font-family: serif;
+  font-size: 2rem;
+
+
+}
+
+.FinancialInvoiceBg{
+ 
+   padding: 24px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0px 6px 20px 0px #00000014;
+    margin: 40px 0 0 0;
+}
+
+
+.FinancialInvoiceBg h4{
+font-family: serif;
+font-size: 2rem;
+margin-bottom: 50px;
+
+}
+
+.financialProjectColumn .financialDetailsInner{
+  margin-bottom: 24px;
+}
+.financialProjectColumn .FinancialProjectDeatils{
+  margin-bottom: 16px;
+}
+.financialProjectColumn .FinancialProjectDeatils span{
+  padding: 8px 16px 8px 16px;
+  background: #0061F6;
+  display: block;
+  border-radius: 4px;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  display: block;
+}
+.financialProjectColumn .FinancialProjectDeatils p{
+  background: #F3F3F3;
+  color: #1D2129;
+  padding: 8px 16px 8px 16px;
+  gap: 8px;
+  border-radius: 4px;
+  margin: 0;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.FinancialInvoiceBg label{
+  font-size: 20px;
+  padding-top: 20px;
+ /* padding-bottom: 15px; */
+}
+
+.FinancialInvoiceBg .financialProjectColumn label{
+  font-size: 20px;
+}
+.FinancialInvoiceBg .form-control {
+  margin-bottom: 25px;
+  border-color: hsl(0, 0%, 80%); 
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1.75px;
+}
+.PaymentRequestBtn{
+  border-radius: 4px;
+  background: #0061F6;
+  padding: 9px 32px;
+  color: #FFF;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  border: none;
+  outline: none;
+  margin-top: 65px;
+}
+
+.InvoiceCreateProject{
+  margin-top: 50px;
+}
+
+.Project_basic_Detail.InvoiceCreateProject{
+  margin: 0;
+}
+ .InvoiceViewBtn,.InvoiceViewBtn:hover{
+background: none;
+text-decoration: underline;
+color: #0d6efd;
+border: none;
+font-weight: 600;
+font-family: var(--font-family);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    background-color: transparent !important;
+}
+
+.avgTripbyTransporter{
+  padding-top: 24px;
+  /* border-top: 1px solid #EAEAEA; */
+}
+.avgTripbyTransporter span{
+  color: #9D9D9D;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.avgTripbyTransporter p {
+  color: #424242;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.avgTripbyTransporterInner{
+  /* display: flex; */
+  flex-wrap: wrap;
+  padding: 12px 20px;
+  align-items: flex-start;
+  gap: 32px;
+  border-radius: 12px;
+  background: #FAFAFA;
+  margin-top: 24px;
+}
+.avgTripbyTransporterInner h5{
+  padding: 15px;
+}
+.avgTripbyTransporterInner h4 ,.projectWeight  h4{
+  color: #424242;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.avgTripbyTransporterInner span{
+  color: #1D2129;
+  font-family: var(--font-family);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+.avgTripbyTransporterInner p{
+  color: #4E5969;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+.avgTripbyTransporterInner .avgTripbyTransporterBorder {
+  border-right: 1px solid #DADADA;
+  padding-right: 32px;
+}
+.avgTripbyTransporterBorder table tbody tr td{
+  color: #424242;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 24px;
+    text-wrap: nowrap;
+}
+.avgTripbyTransporterBorder table thead tr th{
+  text-align: center;
+  text-wrap: nowrap;
+}
+.projectWeight {
+  padding: 12px 0px;
+}
+.projectWeight  span{
+  color: #1D2129;
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.InvoiceCurrentUserData {
+  border-radius: 12px;
+  background: #FFF;
+  box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.InvoiceCurrentUserDataCol {
+  display: flex;
+  gap: 40px;
+}
+.CurrentUserDataInner{
+  /* display: flex; */
+  gap: 20px;
+  align-items: center;
+}
+.CurrentUserDataInner p{
+    margin: 0;
+    color: #424242;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.CurrentUserDataInner h5{
+  color: #9D9D9D;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+.InvoiceCurrentUserData .approved_and_rejected{
+  display: flex;
+  gap: 16px;
+}
+.InvoiceCurrentUserData .approved_and_rejected .Reject{
+  background: #FF4A1A !important;
+  border-color: #FF4A1A ;
+}
