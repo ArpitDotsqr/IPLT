@@ -1,11 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: false,
-  output: 'export',
+  output: "export",
+  trailingSlash: true,
+  skipTrailingSlashRedirect: true,
+  images: {
+    domains: ["localhost", "uat.api.projects.ipllogisticstechnologies.com"],
+    unoptimized: true,
+  },
   eslint: {
     ignoreDuringBuilds: true,
   },
-  images: { domains: ["localhost", "uat.api.projects.ipllogisticstechnologies.com"], unoptimized: true }
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
